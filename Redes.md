@@ -55,6 +55,7 @@ Vamos a ver como crear una red de tipo bridge en Docker, donde desplegarás dos 
 
     ```sh
     ping -c 4 <IP_de_mi-nginx>
+    ping -c 4 mi-nginx # Si tienes configurado el DNS
     ```
 
     Esto debería mostrar que `mi-alpine` puede comunicarse con `mi-nginx` a través de la red.
